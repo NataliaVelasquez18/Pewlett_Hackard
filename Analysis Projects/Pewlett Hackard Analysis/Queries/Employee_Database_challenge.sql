@@ -51,10 +51,7 @@ ON (e.emp_no = de.emp_no)
 INNER JOIN titles AS ti
 ON (e.emp_no = ti.emp_no)
 WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-ORDER BY emp_no ASC, from_date DESC;
-
-
-
+ORDER BY e.emp_no;
 
 
 
