@@ -13,7 +13,7 @@ The purpose of this analysis is to help Pewlett Hackard to prepare for the near 
 Pewlett Hackard is a mature company with several thousand employees.  It’s baby boomers begin to retire at a rapid rate and management is looking into the near future to provide retirement packages, asses recruitment needs, and create a mentorship program in which employees who are about to retire mentor new hires.
 
 ### Overview of spproach:
-
+We had originally six large csv files; salaries, employees, managers by department, employees by department, titles, and departments.  We used a tool called Quick Database Diagrams to stablish the connections in between the different files by making conceptual, logical, and pysical entity relationship diagrams (ERD).  Later, we used PostgreSQL, a free and open-source relational database management system (RDMS), to create Hewlett Packard's employee database.  Finally, by writing SQL queries, we created, joined, & sorted, created four new tables; unique_titles, retiring_titles, retirement_titles, and mentorship_eligibility.  The main SQL functions used were: INNER JOINS, DISTINCT ON, CREATE TABLE, 
 
 ## ANALYSIS AND RESULTS
 
