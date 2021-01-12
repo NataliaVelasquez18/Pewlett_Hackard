@@ -1,3 +1,4 @@
+(Path to retirement image)
 
 # Employee Retirement Analysis
 
@@ -19,6 +20,8 @@ We had originally six large csv files; salaries, employees, managers by departme
 ## ANALYSIS AND RESULTS
 
 **1. Roles to be filled:**
+
+
 
 
 **2. Mentorship program:**
