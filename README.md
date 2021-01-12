@@ -21,15 +21,37 @@ We had originally six large csv files; salaries, employees, managers by departme
 
 **1. Roles to be filled:**
 
+In the next image we can  see the total count by title of employees that will retire in the near future at Pewlett Hackard. If we add them up, they are 90,398 employees.  From which 32% are Senior Engineers, 31% Senior Staff, 16% Engineers, 13.5% Staff, 4.9% Technique Leaders, 1.9% Assistant Engineers, and less than 1% Managers.
 
+(Retiring_titles image)
 
 
 **2. Mentorship program:**
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+The following image shows the employees who are going to retire and that are also eligible for the mentorship program which are 1,549.
 
-**3. More:**
- provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+(metorship_eligibility_per_title image)
+
+We can see the side by side comparison in the following image:
+
+(see comparison)
+<table>
+  <tr>
+    <td>Mentors Needed</td>
+     <td>Mentors Available</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/nativelasquez-austin/School_District_Analysis./blob/main/Resources/retiring_titles.png" width=350 height=650></td>
+    <td><img src="https://github.com/nativelasquez-austin/School_District_Analysis./blob/main/Resources/metorship_eligibility_per_title.png" width=350 height=650></td>
+  </tr>
+ </table>
+ 
+ 
+ Accoridng to this **per each mentor** there will be: 100 Senior Engineer mentees, 69 Senior Staff mentees, 36 Engineer mentees, 39 Staff mentees, 58 Technique Leader meentees, 32 Assistant Engineer mentees, and there will be two managers with no mentors available.
+ 
+ From this we can conclude that there are not enough mentors available the help train the next generation of Pewlett Hackard employees and the company will have to look for ways to hire experienced enough employees to take over the empty positions.
+
+
 
 
 
