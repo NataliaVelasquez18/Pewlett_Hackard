@@ -69,5 +69,3 @@ ORDER BY COUNT(emp_no) DESC;
 
 SELECT * FROM mentorship_elegibilty_per_title;
 
-
-
