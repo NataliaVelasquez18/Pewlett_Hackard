@@ -23,7 +23,7 @@ We had originally six large csv files; salaries, employees, managers by departme
 
 **1. Roles to be filled:**
 
-In the next image we can  see the total number of employees that will retire in the near future at Pewlett Hackard. If we add them up, they are 90,398 employees.  From which 32% are Senior Engineers, 31% Senior Staff, 16% Engineers, 13.5% Staff, 4.9% Technique Leaders, 1.9% Assistant Engineers, and less than 1% Managers.
+In the next image we can  see the total number of employees that will retire in the near future at Pewlett Hackard. If we add them up, they are **90,398** employees.  From which 32% are Senior Engineers, 31% Senior Staff, 16% Engineers, 13.5% Staff, 4.9% Technique Leaders, 1.9% Assistant Engineers, and less than 1% Managers.
 
 
 
@@ -33,7 +33,7 @@ In the next image we can  see the total number of employees that will retire in 
 
 **2. Mentorship program:**
 
-The following image shows that out of 90,398 employees that will retire, only 1,549 meet the criteria for the mentorship program.
+The following image shows that out of 90,398 employees that will retire, only **1,549** meet the criteria for the mentorship program.
 
 
 <img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width="250" height="250" />
