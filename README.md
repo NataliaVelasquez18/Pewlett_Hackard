@@ -25,14 +25,22 @@ We had originally six large csv files; salaries, employees, managers by departme
 
 In the next image we can  see the total number of employees that will retire in the near future at Pewlett Hackard. If we add them up, they are 90,398 employees.  From which 32% are Senior Engineers, 31% Senior Staff, 16% Engineers, 13.5% Staff, 4.9% Technique Leaders, 1.9% Assistant Engineers, and less than 1% Managers.
 
+
+
 ![Retiring_titles.png](Resources/Retiring_titles.png)
+
+
 
 
 **2. Mentorship program:**
 
 The following image shows that out of 90,398 employees that will retire, only 1,549 meet the criteria for the mentorship program.
 
+
+
 ![mentorship_eligibility_per_title.png](Resources/mentorship_eligibility_per_title.png)
+
+
 
 We can see the side by side comparison in the following image:
 
