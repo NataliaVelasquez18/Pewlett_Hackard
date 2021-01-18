@@ -42,7 +42,6 @@ The following image shows that out of 90,398 employees that will retire, only **
 
 We can see the in the following comparison a significant difference in between the mentors available and the mentors needed:
 
-(see comparison)
 <table>
   <tr>
     <td>Mentors Needed</td>
