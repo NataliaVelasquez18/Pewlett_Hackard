@@ -1,3 +1,5 @@
+![retirement.png](Resources/retirement.png)
+
 
 # Employee Retirement Analysis
 
