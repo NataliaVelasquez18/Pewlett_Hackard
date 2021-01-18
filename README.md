@@ -27,18 +27,16 @@ In the next image we can  see the total number of employees that will retire in 
 
 
 
-![Retiring_titles.png](Resources/Retiring_titles.png)
-
-
 <img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/Retiring_titles.png" width="250" height="250" />
+
+
 
 **2. Mentorship program:**
 
 The following image shows that out of 90,398 employees that will retire, only 1,549 meet the criteria for the mentorship program.
 
 
-
-![mentorship_eligibility_per_title.png](Resources/mentorship_eligibility_per_title.png)
+<img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width="250" height="250" />
 
 
 
@@ -51,8 +49,8 @@ We can see the side by side comparison in the following image:
      <td>Mentors Available</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/nativelasquez-austin/School_District_Analysis./blob/main/Resources/retiring_titles.png" width=350 height=650></td>
-    <td><img src="https://github.com/nativelasquez-austin/School_District_Analysis./blob/main/Resources/metorship_eligibility_per_title.png" width=350 height=650></td>
+    <td><img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/Retiring_titles.png" width=350 height=650></td>
+    <td><img src="https://github.com/nativelasquez-austin/Pewlett_Hackard/blob/main/Resources/mentorship_eligibility_per_title.png" width=350 height=650></td>
   </tr>
  </table>
  
