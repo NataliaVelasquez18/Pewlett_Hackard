@@ -30,7 +30,7 @@ In the next image we can  see the total number of employees that will retire in 
 ![Retiring_titles.png](Resources/Retiring_titles.png)
 
 
-
+<img src="https://github.com/nativelasquez-austin/Election_Analysis/blob/main/Resources/Election_results.png" width="250" height="250" />
 
 **2. Mentorship program:**
 
