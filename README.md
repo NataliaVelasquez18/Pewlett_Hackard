@@ -40,7 +40,7 @@ The following image shows that out of 90,398 employees that will retire, only 1,
 
 
 
-We can see the side by side comparison in the following image:
+We can see the in the following comparison a significant difference in between the mentors available and the mentors needed:
 
 (see comparison)
 <table>
@@ -57,13 +57,7 @@ We can see the side by side comparison in the following image:
  
  Accoridng to this **per each mentor** there will be: 100 Senior Engineer mentees, 69 Senior Staff mentees, 36 Engineer mentees, 39 Staff mentees, 58 Technique Leader meentees, 32 Assistant Engineer mentees, and there will be two managers with no mentors available.
  
- From this we can conclude that there are not enough mentors available the help train the next generation of Pewlett Hackard employees and the company will have to look for ways to hire experienced enough employees to take over the empty positions.
-
-
-Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+ From this we can conclude that there are not enough mentors available the help train the next generation of Pewlett Hackard employees and the company will have to look for ways to hire experienced employees to take over the empty positions or expand the mentor eligibility criteria to have more available mentors. 
 
 
 
