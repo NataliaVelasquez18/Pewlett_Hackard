@@ -1,7 +1,7 @@
-![retirement.png](Resources/retirement.png)
+# Employee Database with SQL and Analysis
 
+A database built in SQL to help a large organization to transition from storing and manage their employee data in VBA and Excel into SQL using PostgreSQL.  After the transition, some business questions will be answered by querying data from the newly created database.
 
-# Employee Retirement Analysis
 
 ## OVERVIEW OF THE PROJECT
 
@@ -86,9 +86,10 @@ During installation, you'll need to create a password. Be sure to record it, as 
 
 An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
+To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
 
-## Running the tests
+## Identifying Data Relationships
 
 Explain how to run the automated tests for this system
 
