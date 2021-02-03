@@ -4,6 +4,58 @@ A database built in SQL and data retrieval using PostgreSQL.
 
 ---
 
+## Getting Started
+
+These instructions will get your PostgreSQL database up and running on your local machine.
+
+### Prerequisites
+
+Before the installations there are some important concepts you need to know:  
+
+**PostgreSQL**, typically referred to as just "Postgres," is a relational database system. This type of database consists of tables and their predefined relationships. 
+
+**pgAdmin** is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
+
+
+### Installing
+
+Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
+
+---
+
+## Data Modeling
+
+
+---
+
+
+## Data Engineering
+
+
+---
+
+## Data Analysis
+
+
+---
+
+## Author
+
+---
+
+
+
+
+
+
+
+
+
+
+## Identifying Data Relationships
+
+
+
 ## Business Problem
 
 Storing and managing data in Excel and VBA has become time consuming and slow considering the large amounts of data that the company has.  A need for an escalable database system is needed urgently to be able to answer retirement business questions in a timely manner and to drive strategy.
@@ -83,16 +135,7 @@ Before the installations there are some important concepts you need to know:
 
 ### Installing
 
-Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package, so the following installation instructions will cover both.
-
-Be sure to Not select the latest Postgres version to install. We're installing a previous version to the latest because it is a stable release, meaning that it has been tested and debugged as much as possible and will not generate many errors.
-
-During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.
-
-An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
-
-To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
-
+Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
 
 ## Identifying Data Relationships
 
