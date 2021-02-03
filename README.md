@@ -8,7 +8,7 @@ A database built in SQL to help a large organization to transition from storing 
 
 Storing and managing data in Excel and VBA has become time consuming and slow considering the large amounts of data that the company has.  A need for an escalable database system is needed urgently to be able to answer retirement business questions in a timely manner and to drive strategy.
 
-The company management need to answer several questions.  First, knowing which employees qualify for retirement packages and be able to include them in the budget.  Second, to plan recruitment by getting to know which positions will need to be filled in the near future by department as the number of upcoming retirements will leave thousands of job openings.
+The company management needs to know which employees qualify for retirement packages and which positions will need to be filled by department.
 
 ---
 
