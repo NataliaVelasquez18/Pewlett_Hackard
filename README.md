@@ -75,7 +75,9 @@ Before the installations there are some important concepts you need to know:
 
 **pgAdmin** is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
 
-```
+
+### Installing
+
 Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package, so the following installation instructions will cover both.
 
 Be sure to Not select the latest Postgres version to install. We're installing a previous version to the latest because it is a stable release, meaning that it has been tested and debugged as much as possible and will not generate many errors.
@@ -84,25 +86,7 @@ During installation, you'll need to create a password. Be sure to record it, as 
 
 An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
-```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
