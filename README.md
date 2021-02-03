@@ -61,18 +61,18 @@ We can see the in the following comparison a significant difference in between t
 
 # Employee Database with SQL
 
-An employee database built in SQL using PostgreSQL to migrate the information from legacy systems and solve some business questions
+A database built in SQL to migrate large amounts of employee information from legacy systems to PostgreSQL and solve some business questions.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get your PostgreSQL database up and running on your local machine.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Before the installations there are some important concepts you need to know.  **PostgreSQL**, typically referred to as just "Postgres," is a relational database system. This type of database consists of tables and their predefined relationships. pgAdmin is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
 ```
 
 ### Installing
