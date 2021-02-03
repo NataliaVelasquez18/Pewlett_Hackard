@@ -1,22 +1,18 @@
 # Employee Database with SQL and Analysis
 
-A database built in SQL to help a large organization to transition from storing and manage their employee data in VBA and Excel to managed in PostgreSQL.  After the transition, some business questions will be answered by querying data from the newly created database.
+A database built in SQL to help a large organization to transition from storing and manage their employee data in VBA and Excel to manage it in PostgreSQL.  After the transition, some business questions will be answered by querying data from the newly created database.
 
 ---
 
-## OVERVIEW OF THE PROJECT
+## Business Problem
 
-### Description:
-In this project we helping Pewlett Hackard, a large mature company, to transition from storing and manage their employee data in VBA and Excel into SQL.  We will be modeling and engineering data which contain employee personal information, information of salary, titles and departments.  Later, we will analyze the data to gain insights and inform management for strategic decision making.
+Storing and managing data in Excel and VBA has become time consuming and slow considering the large amounts of data that the company has.  A need for an escalable database system is needed urgently to be able to answer retirement business questions in a timely manner and to drive strategy.
 
 ---
-### Purpose:
-The purpose of this analysis is to help Pewlett Hackard to prepare for the near future in two ways.  First, knowing which employees qualify for retirement packages and be able to include them in the budget.  Second, to plan recruitment by getting to know which positions will need to be filled in the near future by department as the number of upcoming retirements will leave thousands of job openings.
 
-### Current situation:
-Pewlett Hackard is a mature company with several thousand employees.  It’s baby boomers begin to retire at a rapid rate and management is looking into the near future to provide retirement packages, asses recruitment needs, and create a mentorship program.  The purpose of the mentorship program is to transfer the knowledge of experienced employees to the new hires. Employees who are about to retire and meet the criteria of being born in the year 1,965 will be mentoring the new hires before they leave the company.
+## Data
 
-### Overview of approach:
+* The data that we will use to create the database is stored in 6 csv files located
 We had originally six large csv files; salaries, employees, managers by department, employees by department, titles, and departments.  We used Quick Database Diagrams to diagram the relationship in between the different files by making a conceptual, logical, and pysical entity relationship diagram (ERD), this file is stored in the resources folder.  Later, we used PostgreSQL to create Hewlett Packard's employee database.  Finally, by writing SQL queries, we created, joined, & sorted tables, used functions such as ORDER BY, COUNT, GROUP BY to create tailored lists for the analysis.  The initially given files plus the five new files created are stored in the Data folder.  The code used is stored in the file Employee_Database_challenge.sql.
 
 
