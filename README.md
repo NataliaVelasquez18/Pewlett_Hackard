@@ -1,6 +1,6 @@
 # Employee Database with SQL and Analysis
 
-A database built in SQL to help a large organization to transition from storing and manage their employee data in VBA and Excel to manage it in PostgreSQL.  After the transition, some business questions will be answered by querying data from the newly created database.
+A database built in SQL and data retrieval using PostgreSQL. 
 
 ---
 
