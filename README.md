@@ -41,6 +41,10 @@ Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/
 
 ## Author
 
+Contact:
+Email:
+Twitter
+
 ---
 
 
