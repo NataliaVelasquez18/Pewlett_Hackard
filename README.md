@@ -69,10 +69,14 @@ These instructions will get your PostgreSQL database up and running on your loca
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Before the installations there are some important concepts you need to know:  
+
+**PostgreSQL**, typically referred to as just "Postgres," is a relational database system. This type of database consists of tables and their predefined relationships. 
+
+**pgAdmin** is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
 
 ```
-Before the installations there are some important concepts you need to know.  **PostgreSQL**, typically referred to as just "Postgres," is a relational database system. This type of database consists of tables and their predefined relationships. pgAdmin is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
+
 ```
 
 ### Installing
