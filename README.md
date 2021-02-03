@@ -59,9 +59,9 @@ We can see the in the following comparison a significant difference in between t
  From this we can conclude that there are not enough mentors available the help train the next generation of Pewlett Hackard employees and the company will have to look for ways to hire experienced employees to take over the empty positions or expand the mentor eligibility criteria to have more available mentors. 
 
 
-# Project Title
+# Employee Database with SQL
 
-One Paragraph of project description goes here
+An employee database built in SQL using PostgreSQL to migrate the information from legacy systems and solve some business questions
 
 ## Getting Started
 
