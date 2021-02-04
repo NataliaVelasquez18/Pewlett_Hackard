@@ -2,11 +2,14 @@
 
 A database built in SQL using PostgreSQL. 
 
+
 ---
+
 
 ## Getting Started
 
 These instructions will get your PostgreSQL database up and running on your local machine.
+
 
 ### Prerequisites
 
@@ -16,7 +19,8 @@ Before the installations there are some important concepts you need to know:
 
 **pgAdmin** is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
 
-**Visual Studio Code** is a free source-code editor made by Microsoft for Windows, Linux and macOS.  
+**Visual Studio Code** is a free source-code editor made by Microsoft for Windows, Linux and macOS. 
+
 
 
 ### Installing
@@ -28,28 +32,36 @@ Before the installations there are some important concepts you need to know:
 
 2. Download [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
 
+
 ---
+
 
 ## Data Modeling
 
+
 ### Identifying Data Relationships
 
-In the database_creation_csv_files folder there are 6 csv files with employee data such as salaries, employees, managers by department, employees by department, titles, and departments.  You will use this files to create your database.
-
-Despite there are numerous types of keys, for our purposes, we will focus on primary keys and foreign keys.
+In the database_creation_csv_files folder there are 6 csv files with employee data such as salaries, employees, managers by department, employees by department, titles, and departments. These files will be our tables for our database.  Feel free to open and examine the tables to get familiar with the data.
 
 
 ### Entity Relationship Diagrams (ERD)
 
-In the ERD_and_queries folder you can find our Entity_Relationship_Diagram.sql file. 
+In the ERD_and_queries folder you can find the Entity_Relationship_Diagram.sql file. You will use Visual Studio Code to open the file and see the table relationships and data types of each column in our 6 tables.  
 
-You can use the free version of [Quick DBD](https://www.quickdatabasediagrams.com/) to make the process smooth and be able to see the table relationships graphically.
+%%%picture of our file open with VScode
 
-%%%%%%%%Image of our ERD
+If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website and click **try the app**. The editor will open in the same page, **click exit tour**, then **select all the text** on the left hand side of the panel and delete it.
 
-With the free version you canno save the file so just can copy the information and paste it on a new empty .sql file that you can create on 
+
+%%%% image of the deleted text
+
+After this, **paste** the content of the Entity_Relationship_Diagram.sql file into the editor and on the right hand side, you will be able to see graphically the 6 tables and its respective relationships.  You can drag to spread the tables as you like in case they show overlaping each other.
+
+%%%% image of the tables on Quick DBD
+
 
 ---
+
 
 
 ## Data Engineering
