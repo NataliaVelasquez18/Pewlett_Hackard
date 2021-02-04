@@ -126,10 +126,45 @@ connect to DB image
 
 Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  Then, from the dropdown menu, scroll down to the Query Tool and click to select.
 
+
 Query tool image
 
 
+To create our 6 new tables, open the schema.sql file using Visual Studio Code, copy all the information from the file and paste it on the Query Tool in pgAdmin. In the next block of code you can see an example of the first part of it.
 
+```
+-- Creating tables for PH-EmployeeDB
+CREATE TABLE departments (
+     dept_no VARCHAR(4) NOT NULL,
+     dept_name VARCHAR(40) NOT NULL,
+     PRIMARY KEY (dept_no),
+     UNIQUE (dept_name)
+);
+```
+
+Then execute code.  In the toolbar of the pgAdmin webpage, hover over the different icons and find the icon for execute/refresh and click it. This button runs the code and saves our work to the database.
+
+
+### Import Data
+
+
+In the pgAdmin window, select the dropdown menu for our PH-EmployeeDB database. To import data into the tables, first confirm all of our tables are listed.  If you are unable to see all the tables, right click on "Tables" and then click "Refresh".
+
+
+check tables image
+
+
+
+To import a CSV into Postgres with pgAdmin, follow these steps. 
+
+1. Right-click the first table, departments.
+2. From the menu that pops up, scroll to Import/Export. 
+3. Toggle the button to show "Import." 
+4. Click the ellipsis on the Filename field to search for your project folder.
+Select departments.csv. Make sure Format is set to "csv" and Encoding is blank. Note: By default, the Encoding section is blank. If our files were encoded to provide an extra layer of security, we would need to select the type of encoding before importing them to Postgres. We don't have to worry about this, though. Also, if "Encoding" is filled in with an encoding type such as BIG5 or LATIN1, cancel the import and start over. 
+Leave the OID field as is, but toggle the Header field to "Yes" and select the comma as the Delimiter. Note: If we don't specify that there is already a header included in the CSV data, then the header will be imported as data. This would result in errors because headers don't always match the data types in the columns. 
+Click OK to begin importing the data. 
+If the import is successful, a pop-up window will appear at the bottom of your pgAdmin page: 
 
 
 
