@@ -25,9 +25,19 @@ Before the installations there are some important concepts you need to know:
 
 ### Installing
 
-1. Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
+1. Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  
 
-%%%%%picture of not installing the extra tools
+An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
+
+$$$uncheck builder
+
+
+
+To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
+
+
+%%%%%confirm installation
+
 
 
 2. Download [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
@@ -48,17 +58,24 @@ In the database_creation_csv_files folder there are 6 csv files with employee da
 
 In the ERD_and_queries folder you can find the Entity_Relationship_Diagram.sql file. You will use Visual Studio Code to open the file and see the table relationships and data types of each column in our 6 tables.  
 
-%%%picture of our file open with VScode
+If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website, click the "Try the App" button shown in the following image to get started. You don't need to create an account to make your first diagram.
 
-If you are a more of a visual person and would like to visualize the table relationships graphically before we create our database, go to [Quick DBD](https://www.quickdatabasediagrams.com/) website and click **try the app**. The editor will open in the same page, **click exit tour**, then **select all the text** on the left hand side of the panel and delete it.
+try app image
 
 
-%%%% image of the deleted text
+The next screen is the text editor. Because it's your first visit, the text editor will have a sample ERD already in place, plus an option to tour the app and accept the website's cookies. Click the "Got it!" button to dismiss the message about cookies and go ahead and skip the tour.
 
-After this, **paste** the content of the Entity_Relationship_Diagram.sql file into the editor and on the right hand side, you will be able to see graphically the 6 tables and its respective relationships.  You can drag to spread the tables as you like in case they show overlaping each other.
+skip tour image
 
-%%%% image of the tables on Quick DBD
 
+Instead of altering the sample, we'll go ahead and delete the text in the text editor to clear the canvas for our own use.
+
+%%%% empty tex editor
+
+
+Copy the content of the Entity_Relationship_Diagram.sql file and paste it on the text editor. The flow chart will update revealing the connections between the tables.
+
+flow chart image
 
 ---
 
@@ -66,6 +83,7 @@ After this, **paste** the content of the Entity_Relationship_Diagram.sql file in
 
 ## Data Engineering
 
+Create a Database
 
 ---
 
