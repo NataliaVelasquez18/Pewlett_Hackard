@@ -1,6 +1,6 @@
-# Employee Database with SQL and Analysis
+# Employee Database with SQL
 
-A database built in SQL and data retrieval using PostgreSQL. 
+A database built in SQL using PostgreSQL. 
 
 ---
 
