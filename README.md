@@ -208,7 +208,6 @@ In the last table we can see there are employees who appear more than once.  Tha
 
 
 ```
-
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
@@ -218,13 +217,11 @@ INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no ASC, to_date DESC;
 
-
 ```
 
 How many employees are about to retire by title?
 
 ```
-
 SELECT * FROM unique_titles;
 
 --Number of employees by title who are about to retire
@@ -235,14 +232,12 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 
-
 ```
 
 x
 
 
 ```
-
 -- Employees elegible for mentorship program
 
 SELECT DISTINCT ON (emp_no) e.emp_no,
@@ -260,8 +255,6 @@ INNER JOIN titles AS ti
 ON (e.emp_no = ti.emp_no)
 WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
-
-
 ```
 
 
@@ -269,7 +262,6 @@ x
 
 
 ```
-
 -- mentorship eligibility per tittle
 
 SELECT COUNT(emp_no),
@@ -281,7 +273,6 @@ ORDER BY COUNT(emp_no) DESC;
 
 
 SELECT * FROM mentorship_elegibilty_per_title;
-
 ```
 
 ---
