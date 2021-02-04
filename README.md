@@ -143,8 +143,7 @@ CREATE TABLE departments (
      dept_no VARCHAR(4) NOT NULL,
      dept_name VARCHAR(40) NOT NULL,
      PRIMARY KEY (dept_no),
-     UNIQUE (dept_name)
-);
+     UNIQUE (dept_name));
 ```
 
 Then execute code.  In the toolbar of the pgAdmin webpage, hover over the different icons and find the icon for execute/refresh and click it. This button runs the code and saves our work to the database.
@@ -174,10 +173,7 @@ To import a CSV into Postgres with pgAdmin, follow these steps.
 
 ---
 
-## Data Analysis
-
-
-### Query Business Questions
+## Query Business Questions
 
 
 Retrieve the employees who are retiring with their name, last name, title, dates of employment and order them by employee number.
@@ -197,10 +193,7 @@ INNER JOIN titles AS ti
 ON (e.emp_no = ti.emp_no)
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY 
-e.emp_no ASC
-
-;
-
+e.emp_no ASC;
 ```
 
 
@@ -216,7 +209,6 @@ title
 INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no ASC, to_date DESC;
-
 ```
 
 How many employees are about to retire by title?
@@ -231,10 +223,9 @@ INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
-
 ```
 
-x
+Retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965.
 
 
 ```
@@ -258,7 +249,7 @@ ORDER BY e.emp_no;
 ```
 
 
-x
+Retrieve first name, last name, birth date, employed since date and title of employees currently employed at the company born between 01/01/1965 and 12/31/1965 grouped by their title.
 
 
 ```
@@ -270,9 +261,6 @@ INTO mentorship_elegibilty_per_title
 FROM mentorship_elegibilty
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
-
-
-SELECT * FROM mentorship_elegibilty_per_title;
 ```
 
 ---
