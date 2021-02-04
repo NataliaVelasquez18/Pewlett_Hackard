@@ -25,7 +25,7 @@ Before the installations there are some important concepts you need to know:
 
 ### Installing
 
-1. Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  
+First, visit the **PostgresSQL** [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  
 
 An InstallBuilder window will show the components selected for installation. Be sure to uncheck Stack Builder's box. Stack Builder is used to install Postgres add-ons, but we won't need it for our project.
 
@@ -40,12 +40,13 @@ To confirm your installation, start pgAdmin (a new browser window will launch) a
 
 
 
-2. Download [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
+Second, download [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
 
 
 ### Download files
 
 Download the folders and files contained in this repository on your local machine except for the png_images folder
+
 
 ---
 
@@ -89,10 +90,10 @@ flow chart image
 
 ### Create a Database
 
-1. Launch pgAdminReturn to the pgAdmin window we opened earlier.  If you have closed your pgAdmin window, or shut down the program completely, you can open a new one by locating the pgAdmin icon and clicking it to start the software again.
+**First**, launch pgAdminReturn to the pgAdmin window we opened earlier.  If you have closed your pgAdmin window, or shut down the program completely, you can open a new one by locating the pgAdmin icon and clicking it to start the software again.
 
 
-2. Connect to the Server
+**Second**, connect to the Server
 
 If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
 
@@ -103,7 +104,7 @@ image conect toserver
 This is the default database that is created when the pgAdmin and Postgres package was installed. Instead of using this database, you will create another one for this project.
 
 
-3. Create a New Database
+**Third**, create a New Database
 
 
 Right-click on "PostgreSQL your version." and create the database.
