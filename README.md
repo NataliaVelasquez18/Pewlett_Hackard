@@ -43,6 +43,10 @@ To confirm your installation, start pgAdmin (a new browser window will launch) a
 2. Download [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
 
 
+### Download files
+
+Download the folders and files contained in this repository on your local machine except for the png_images folder
+
 ---
 
 
@@ -153,18 +157,16 @@ In the pgAdmin window, select the dropdown menu for our PH-EmployeeDB database. 
 
 check tables image
 
-
-
 To import a CSV into Postgres with pgAdmin, follow these steps. 
 
 1. Right-click the first table, departments.
 2. From the menu that pops up, scroll to Import/Export. 
 3. Toggle the button to show "Import." 
 4. Click the ellipsis on the Filename field to search for your project folder.
-Select departments.csv. Make sure Format is set to "csv" and Encoding is blank. Note: By default, the Encoding section is blank. If our files were encoded to provide an extra layer of security, we would need to select the type of encoding before importing them to Postgres. We don't have to worry about this, though. Also, if "Encoding" is filled in with an encoding type such as BIG5 or LATIN1, cancel the import and start over. 
-Leave the OID field as is, but toggle the Header field to "Yes" and select the comma as the Delimiter. Note: If we don't specify that there is already a header included in the CSV data, then the header will be imported as data. This would result in errors because headers don't always match the data types in the columns. 
-Click OK to begin importing the data. 
-If the import is successful, a pop-up window will appear at the bottom of your pgAdmin page: 
+5. Select departments.csv. Make sure Format is set to "csv" and Encoding is blank. 
+6. Leave the OID field as is, but toggle the Header field to "Yes" and select the comma as the Delimiter. 
+7. Click OK to begin importing the data. 
+8. If the import is successful, a pop-up window will appear at the bottom of your pgAdmin page 
 
 
 
@@ -173,6 +175,33 @@ If the import is successful, a pop-up window will appear at the bottom of your p
 
 ## Data Analysis
 
+
+### Query Business Questions
+
+
+---
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+---
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+---
+
+## Authors
+
+
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
 ---
 
@@ -192,28 +221,6 @@ Twitter
 
 
 
-
-## Identifying Data Relationships
-
-
-
-## Business Problem
-
-Storing and managing data in Excel and VBA has become time consuming and slow considering the large amounts of data that the company has.  A need for an escalable database system is needed urgently to be able to answer retirement business questions in a timely manner and to drive strategy.
-
-The company management needs to know which employees qualify for retirement packages and which positions will need to be filled by department.
-
----
-
-## Data
-
-* The data that we will use to create the database is stored in 6 csv files located in the folder Database_creation_files
-
-* Using SQL queries to answer employee retirement business questions new data has been retrieved
-
----
-
-We had originally six large csv files; salaries, employees, managers by department, employees by department, titles, and departments.  We used Quick Database Diagrams to diagram the relationship in between the different files by making a conceptual, logical, and pysical entity relationship diagram (ERD), this file is stored in the resources folder.  Later, we used PostgreSQL to create Hewlett Packard's employee database.  Finally, by writing SQL queries, we created, joined, & sorted tables, used functions such as ORDER BY, COUNT, GROUP BY to create tailored lists for the analysis.  The initially given files plus the five new files created are stored in the Data folder.  The code used is stored in the file Employee_Database_challenge.sql.
 
 
 ## ANALYSIS AND RESULTS
@@ -308,28 +315,6 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
 
