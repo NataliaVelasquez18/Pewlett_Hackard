@@ -16,15 +16,38 @@ Before the installations there are some important concepts you need to know:
 
 **pgAdmin** is the window into our database: it's where queries are written and executed and where results are viewed. While Postgres holds the files, pgAdmin provides the access. All SQL actions take place within these two programs, so let's install them.
 
+**Visual Studio Code** is a free source-code editor made by Microsoft for Windows, Linux and macOS.  
+
 
 ### Installing
 
-Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
+1. Visit the PostgresSQL [download website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) - The web framework used to initiate your download. Be sure to choose the correct download option for your operating system. Both Postgres and pgAdmin are downloaded together as a package. Be sure to Not select the latest Postgres version, we're installing a previous version to the latest because it is a more stable release.  During installation, you'll need to create a password. Be sure to record it, as you'll use it to access your SQL database.  To confirm your installation, start pgAdmin (a new browser window will launch) and double-click to connect to the default server and enter your password.
+
+%%%%%picture of not installing the extra tools
+
+
+2. Download [Visual Studio Code](https://code.visualstudio.com/) for your operating system.
 
 ---
 
 ## Data Modeling
 
+### Identifying Data Relationships
+
+In the database_creation_csv_files folder there are 6 csv files with employee data such as salaries, employees, managers by department, employees by department, titles, and departments.  You will use this files to create your database.
+
+Despite there are numerous types of keys, for our purposes, we will focus on primary keys and foreign keys.
+
+
+### Entity Relationship Diagrams (ERD)
+
+In the ERD_and_queries folder you can find our Entity_Relationship_Diagram.sql file. 
+
+You can use the free version of [Quick DBD](https://www.quickdatabasediagrams.com/) to make the process smooth and be able to see the table relationships graphically.
+
+%%%%%%%%Image of our ERD
+
+With the free version you canno save the file so just can copy the information and paste it on a new empty .sql file that you can create on 
 
 ---
 
