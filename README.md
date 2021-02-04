@@ -80,10 +80,59 @@ flow chart image
 ---
 
 
-
 ## Data Engineering
 
-Create a Database
+
+### Create a Database
+
+1. Launch pgAdminReturn to the pgAdmin window we opened earlier.  If you have closed your pgAdmin window, or shut down the program completely, you can open a new one by locating the pgAdmin icon and clicking it to start the software again.
+
+
+2. Connect to the Server
+
+If you've been disconnected from your server, locate it in the menu to the left, then single-click the PostgreSQL (your version) server to initiate a connection. At this point, you will be prompted to enter the password you created during installation.  After connecting to the server, you should see that there is already a database named "postgres."
+
+
+image conect toserver
+
+
+This is the default database that is created when the pgAdmin and Postgres package was installed. Instead of using this database, you will create another one for this project.
+
+
+3. Create a New Database
+
+
+Right-click on "PostgreSQL your version." and create the database.
+
+
+create database image
+
+
+Name the database PH-EmployeeDB and click "Save".
+
+
+save database image
+
+
+A red X beside the new database's name indicates we aren't yet connected to it, but it is there and ready for use. Click on the new database to connect. 
+
+
+connect to DB image
+
+
+
+### Create Tables in SQL
+
+
+Looking back at the pgAdmin window, right-click on the database PH-EmployeeDB.  Then, from the dropdown menu, scroll down to the Query Tool and click to select.
+
+Query tool image
+
+
+
+
+
+
 
 ---
 
